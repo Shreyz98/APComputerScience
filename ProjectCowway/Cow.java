@@ -78,4 +78,8 @@ public class Cow extends FarmObject {
 			super.remove();
 		}
 	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
 }
