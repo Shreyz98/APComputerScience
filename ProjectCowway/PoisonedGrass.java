@@ -4,6 +4,6 @@ public class PoisonedGrass extends Grass {
 	}
 		
 	public void increaseAmount() {
-		this.amount += 2;
+		super.amount += 2;
 	}
 }
