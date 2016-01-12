@@ -5,9 +5,9 @@ public class FlyingCow extends Cow{
 	
 	public void move() {
 		do {
-			this.x = (int)(Math.random() * farmGrid.length);
-			this.y = (int)(Math.random() * farmGrid[this.x].length);
-		} while (Cow.x == this.x && Cow.y == this.y);
+			super.x = (int)(Math.random() * farmGrid.length);
+			super.y = (int)(Math.random() * farmGrid[super.x].length);
+		} while (Cow.x == super.x && Cow.y == super.y);
 		super.eatGrass();
 	}
 }
